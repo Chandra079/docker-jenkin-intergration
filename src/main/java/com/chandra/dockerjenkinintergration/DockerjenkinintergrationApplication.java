@@ -12,6 +12,7 @@ public class DockerjenkinintergrationApplication {
     @GetMapping("/")
     public String getMessage(){
         System.out.println("DockerjenkinintergrationApplication");
+        System.out.println("Started");
         return "DockerjenkinintergrationApplication";
     }
 
